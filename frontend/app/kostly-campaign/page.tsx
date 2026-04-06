@@ -153,13 +153,21 @@ export default function Home() {
   const [isDark, setIsDark] = useState(false);
   const [visitors, setVisitors] = useState(35);
 
-  // Example of how you would dynamically increment it.
-  // When you deploy, you can have a simple API route (e.g., Vercel KV) to handle the count:
-  // useEffect(() => {
-  //   fetch('/api/visitors', { method: 'POST' })
-  //     .then(res => res.json())
-  //     .then(data => setVisitors(data.count));
-  // }, []);
+  useEffect(() => {
+    // Fetch unique campaign page visitors (pageId: 2)
+    fetch('/api/visitors', { 
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ pageId: 2 })
+    })
+      .then(res => res.json())
+      .then(data => {
+        if (data.count) {
+          setVisitors(data.count);
+        }
+      })
+      .catch(err => console.error("Error fetching visitors", err));
+  }, []);
 
   useEffect(() => {
     const isSystemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;

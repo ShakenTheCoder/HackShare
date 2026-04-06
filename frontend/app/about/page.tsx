@@ -8,6 +8,18 @@ export default function AboutPage() {
   const [visitors, setVisitors] = useState(35);
 
   useEffect(() => {
+    // Only fetch on mounted client
+    fetch('/api/visitors', { method: 'POST' })
+      .then(res => res.json())
+      .then(data => {
+        if (data.count) {
+          setVisitors(data.count);
+        }
+      })
+      .catch(err => console.error("Error fetching visitors", err));
+  }, []);
+
+  useEffect(() => {
     const isSystemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     const html = document.documentElement;
     if (isSystemDark || html.classList.contains('dark')) {
