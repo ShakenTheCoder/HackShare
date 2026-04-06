@@ -1,0 +1,1 @@
+HackShare is a platform built for builder, hackathon and startup communities in which they can open project pages to share tasks and real time progress on them. They can also share their website, github repo and can get in touch with people that want to work with them on the startup. 

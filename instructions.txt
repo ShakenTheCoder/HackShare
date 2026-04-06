@@ -1,0 +1,139 @@
+🧠 1. Notion — “Calm, flexible, invisible UI”
+🎨 UI Style
+Very minimal and airy
+Lots of white space
+Soft grays instead of harsh blacks
+Almost no borders → uses spacing instead
+Rounded corners, subtle shadows
+
+Feels like:
+
+“The UI disappears, your content is the focus.”
+
+🧩 UX Philosophy
+Everything is a block
+Drag & drop everywhere
+Super flexible (no strict structure)
+
+Key traits:
+
+Feels like a blank canvas
+Encourages exploration
+Low intimidation
+🧠 What you should take for HackShare
+Clean layout (no clutter)
+Focus on content (tasks, progress)
+Smooth interactions (drag tasks, edit inline)
+Calm colors (don’t go full hacker mode)
+🧠 2. GitHub — “Structured, functional, builder-first”
+🎨 UI Style
+More dense and information-heavy
+Clear separators (lines, boxes)
+Strong contrast (white + dark headers)
+Functional > pretty
+
+Feels like:
+
+“Everything has a place. Everything is trackable.”
+
+🧩 UX Philosophy
+Everything is state-based
+Open / Closed
+Draft / Merged
+Highly structured workflows
+Optimized for collaboration + tracking
+
+Key traits:
+
+Clarity over creativity
+Predictability
+Power-user friendly
+🧠 What you should take for HackShare
+Task states (TODO / DOING / DONE)
+Clear ownership (who’s working on what)
+Activity logs (“X did Y”)
+Reliability feeling
+⚡ The Blend for HackShare (this is the gold)
+
+You want:
+
+Notion’s simplicity + GitHub’s structure
+
+🎨 Visual Direction
+Base
+Light mode first
+White / very light gray background
+Subtle borders (like GitHub, but softer)
+Components
+Cards like Notion
+States like GitHub
+
+Example:
+
+Task = Notion-style card
+Status = GitHub-style label
+🧩 Core UI Elements
+✅ Task Cards
+Clean, minimal (Notion)
+With labels like:
+🟡 TODO
+🔵 DOING
+🟢 DONE (GitHub vibe)
+📊 Progress Section
+Big, simple progress bar (Notion feel)
+But with real data (GitHub feel)
+🧑‍💻 Contributors
+Avatars stacked (GitHub style)
+Click → see contributions
+📡 Activity Feed
+“Alex completed task X”
+Very GitHub-inspired
+But visually clean (Notion spacing)
+🧠 UX Rules (VERY IMPORTANT)
+1. No friction
+Inline editing (Notion)
+No popups for everything
+2. Everything visible
+Tasks visible without clicking 5 times (GitHub)
+3. Real-time feel
+Updates instantly
+Feels “alive”
+4. Low learning curve
+A non-dev should understand it in 10 seconds
+🎯 Design Personality for HackShare
+
+If I had to define it:
+
+“A calm interface for chaotic building.”
+
+🚀 Practical Design Stack (what to actually use)
+Tailwind (you already like it)
+Components inspired by:
+Notion → spacing, typography
+GitHub → badges, states, layout
+
+Fonts:
+
+Inter (safe choice)
+Or something slightly more “builder” like JetBrains Mono for small elements
+
+Colors:
+
+White / light gray base
+Accent color (your brand)
+Status colors:
+Gray (todo)
+Blue (doing)
+Green (done)
+⚠️ Common mistake to avoid
+
+Don’t:
+
+Overdesign like a SaaS landing page
+Add too many colors
+Make it “fancy”
+
+If it feels like:
+
+A dashboard → good
+A design showcase → bad

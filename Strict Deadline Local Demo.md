@@ -1,0 +1,35 @@
+# Strict deadline local mvp
+
+- [ ]  Structure 3 tiers  plan for usage
+- [ ]  clear session structure by headers and tagging
+- [ ]  budget alert
+- [ ]  alert dismiss
+- [ ]  Construct templates
+- [ ]  Cherry MLP v1
+    - [ ]  Normalize
+    - [ ]  Classify
+    - [ ]  Use template
+    - [ ]  ML Route
+    - [ ]  Output
+- [ ]  Cherry Complex
+    - [ ]  Cherry Layer 1
+        - [ ]  task normalization cleaner
+    - [ ]  Cherry Layer 2
+        - [ ]  task classifier
+            - [ ]  Cherry Layer 2  A (choice: simple)
+                - [ ]  use of no ML
+                    - [ ]  use of predefined llm templates
+            - [ ]  Cherry Layer 2 B
+                - [ ]  no micro tasking
+            - [ ]  Cherry Layer 2 C (choice: complex)
+                - [ ]  Cherry Layer 3
+                    - [ ]  reconstruct micro tasks
+                        - [ ]  assign excluded sources
+                    - [ ]  model for micro tasking
+                    - [ ]  route each micro task
+    - [ ]  Cherry Layer 4
+        - [ ]  reconstruct final output
+- [ ]  analyze 500 + models
+- [ ]  get llms’ capabilities
+- [ ]  build industry level agent
+- [ ]  Implement checkout
