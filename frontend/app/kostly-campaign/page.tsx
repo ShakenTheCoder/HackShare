@@ -151,7 +151,7 @@ function TaskNode({ task, depth = 0, isBlurred = false }: { task: Task; depth?: 
 export default function Home() {
   const [countdown, setCountdown] = useState("00:00:00:00");
   const [isDark, setIsDark] = useState(false);
-  const [visitors, setVisitors] = useState(35);
+  const [visitors, setVisitors] = useState(0);
 
   useEffect(() => {
     // Fetch unique campaign page visitors (pageId: 2)

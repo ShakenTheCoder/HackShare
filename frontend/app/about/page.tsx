@@ -5,7 +5,7 @@ import { Metadata } from "next";
 
 export default function AboutPage() {
   const [isDark, setIsDark] = useState(false);
-  const [visitors, setVisitors] = useState(35);
+  const [visitors, setVisitors] = useState(0);
 
   useEffect(() => {
     // Only fetch on mounted client

@@ -6,7 +6,7 @@ export default function HomePage() {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [isDark, setIsDark] = useState(false);
-  const [visitors, setVisitors] = useState(35);
+  const [visitors, setVisitors] = useState(0);
 
   useEffect(() => {
     // Only fetch on mounted client
